@@ -41,6 +41,7 @@ I further filtered the entire dataset to contain only airplanes as the other cat
 ``
 df=df[df['Aircraft Category'].str.strip()=='Airplane']
 ``
+
 **5.Engine type**
 
 The type of engine in an aircraft is very important.
