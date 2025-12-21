@@ -42,4 +42,16 @@ I further filtered the entire dataset to contain only airplanes as the other cat
 5.Engine type
 
 The type of engine in an aircraft is very important.
-The document below highlights the advantages and disadvantages of the various engine type
+The document attached highlights the advantages and disadvantages of the various engine types.
+
+6.Make and Model
+
+I filtered the models of the planes by their count and then plot a bar graph showcasing models against number of accidents.
+
+7.Injury Severity and Aircraft Damage
+
+A bar graph of injury severity against aircraft damage indicates a high number of injuries even with substantial damage to the aircraft.
+
+Recommendations
+
+I would recommend the plane models that appear on the last cell of the jupyter notebook as they have the least number of accidents.
