@@ -1,15 +1,15 @@
 # plane-acquisition-data
 
-This repository looks at the risks of aircrafts to determine which aircraft the company should purchase.
+**This repository looks at the risks of aircrafts to determine which aircraft the company should purchase.**
 
 Company x is looking to diversify its portfolio by venturing into the aviation industry and have tasked me with determining which aircraft has the lowest risk.The objective is to analyze accident data from the National Transportation Safety Board and make data proven recommendations on the aircrafts to purchase.The dataset contained civil aviation accident and selected incidents in the United States and international waters.I first had to filter the data into the relevant categories before aggregating and visualizing it.The results yielded a list of various aircrafts that i will recommend to the aviation division of the company.
 
-INTRODUCTION
+**INTRODUCTION**
 
 The dataset contains information about various aspects of the accident like accident date,fatalities and injuries,location,weather conditions etc.
 The objective was to filter the data into its distinct categories and make certain analysis.
 
-DATA UNDERSTANDING AND ANALYSIS
+**DATA UNDERSTANDING AND ANALYSIS**
 
 I filtered the data into its distinct categories and visualized the data in the juputer Notebook(plane.ipynb) and the tableau interactive dashboard linked below.
 
@@ -51,12 +51,12 @@ I filtered the models of the planes by their count and then plot a bar graph sho
 
 7.Injury Severity and Aircraft Damage
 
-A bar graph of injury severity against aircraft damage indicates a high number of injuries even with substantial damage to the aircraft.
+A bar graph of injury severity against aircraft damage indicates a high number of injuries even with substantial damage to the aircraft
 
 Recommendations
 
 I would recommend the plane models that appear on the last cell of the jupyter notebook as they have the least number of accidents.
 
-# which models have the least accidents
-
+ which models have the least accidents
+````
 df['Model'].value_counts().sort_values(ascending=True).head(10).index.tolist()
