@@ -43,6 +43,7 @@ I further filtered the entire dataset to contain only airplanes as the other cat
 
 The type of engine in an aircraft is very important.
 The document attached highlights the advantages and disadvantages of the various engine types.
+Untitled documents.docx
 
 6.Make and Model
 
@@ -55,3 +56,7 @@ A bar graph of injury severity against aircraft damage indicates a high number o
 Recommendations
 
 I would recommend the plane models that appear on the last cell of the jupyter notebook as they have the least number of accidents.
+
+# which models have the least accidents
+
+df['Model'].value_counts().sort_values(ascending=True).head(10).index.tolist()
